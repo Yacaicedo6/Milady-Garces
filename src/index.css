@@ -1,0 +1,8 @@
+@import "@fontsource/inter/index.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ajustes menores opcionales */
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: system-ui, sans-serif; }
