@@ -3,31 +3,40 @@ import { Mail, Linkedin, Instagram, Facebook } from "lucide-react";
 
 const DATA = {
   recipientName: "Milady Yineth Garcés Arboleda",
-  recipientRole: "Líder en Desarrollo Económico y Empresarial del Pacífico Colombiano",
+  recipientRole: "Líder en Desarrollo Empresarial, Comercial y Territorial del Pacífico Colombiano",
   senderName: "Yan Caicedo",
-  coverImage: "/milady.jpg",
+  coverImage: coverImage,
   introText:
-    "Liderazgo estratégico y compromiso con el desarrollo socioeconómico del Pacífico Colombiano. Reconocida internacionalmente por su visión, impacto y dedicación a la transformación sostenible de las comunidades y los territorios.",
+    "Consultora, asesora y conferencista experta en desarrollo productivo, fortalecimiento empresarial, liderazgo femenino y construcción de paz territorial. Reconocida por su impacto en procesos de transformación social y económica en comunidades étnicas y rurales del Pacífico colombiano.",
   biography:
-    "Milady Yineth Garcés Arboleda ha liderado la Cámara de Comercio de Buenaventura impulsando más de 27 programas y proyectos socioeconómicos que han beneficiado a miles de personas. Ha sido reconocida como una de las 100 personas de ascendencia africana más influyentes del mundo en la categoría Export & International Trade (MIPAD 2024). Su gestión se ha caracterizado por la creación de alianzas estratégicas, el fortalecimiento empresarial y el empoderamiento de mujeres y jóvenes en el Pacífico Colombiano.",
+    "Milady Garcés es una profesional integral con más de 15 años de experiencia liderando estrategias de desarrollo económico, inclusión productiva y empoderamiento comunitario en contextos desafiantes. Ha trabajado con agencias de cooperación internacional, entidades públicas y organizaciones sociales, destacándose por su capacidad de articulación multisectorial. Fue presidenta ejecutiva de la Cámara de Comercio de Buenaventura, donde impulsó iniciativas de transformación empresarial y fortalecimiento institucional. Actualmente se desempeña como consultora independiente, promoviendo la competitividad territorial con enfoque diferencial y étnico.",
   initiatives: [
     {
-      title: "Buzón Ganador",
+      title: "Fortalecimiento Empresarial con Enfoque Étnico",
       description:
-        "Programa para promover la formalización empresarial y fortalecer las capacidades de los emprendedores.",
+        "Acompañamiento a más de 1.200 unidades productivas afrodescendientes y rurales, promoviendo la inclusión económica desde la identidad cultural.",
     },
     {
-      title: "Empoderamiento Económico Sostenible (ECOS)",
+      title: "Pactos por el Desarrollo Territorial",
       description:
-        "Iniciativa para potenciar el liderazgo de mujeres en la economía local.",
+        "Diseño y ejecución de planes de desarrollo productivo con participación comunitaria y enfoque de género en el Pacífico colombiano.",
     },
     {
-      title: "Jóvenes en Ciencia para la Paz",
+      title: "Estrategia de Liderazgo Femenino",
       description:
-        "Proyecto que vincula a jóvenes del territorio en procesos de investigación e innovación.",
+        "Creación de redes de mujeres emprendedoras y procesos formativos para el empoderamiento político y económico.",
     },
   ],
-  press: [],
+  press: [
+    {
+      title: "Milady Garcés entre las 100 personas afrodescendientes más influyentes del mundo",
+      link: "https://www.mipad.org/files/MIPAD_PUBLICATION_2024_Online_Version.pdf",
+    },
+    {
+      title: "Reconocimiento a su gestión en la Cámara de Comercio de Buenaventura",
+      link: "https://www.linkedin.com/posts/asousa_futuroencasa-orgulloasousa-yosoyasousa-activity-7383861973597298689-IKLc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADG7L-4BUXCtOfGiP6EvOVhwJrxcuXotywY",
+    },
+  ],
   links: {
     email: "mailto:miyi.garces@gmail.com",
     linkedin: "https://www.linkedin.com/in/milady-garces-arboleda-34820226a",
@@ -35,6 +44,7 @@ const DATA = {
     facebook: "https://www.facebook.com/milady.garcesarboleda",
   },
 };
+
 
 function daysFrom(dateStr) {
   const start = new Date(`${dateStr}T00:00:00`);
