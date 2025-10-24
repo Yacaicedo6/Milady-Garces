@@ -30,11 +30,11 @@ const DATA = {
   press: [
     {
       title: "Milady Garcés entre las 100 personas afrodescendientes más influyentes del mundo",
-      link: "https://www.mipad.org/files/MIPAD_PUBLICATION_2024_Online_Version.pdf",
+      link: "https://mipad.org/milady-garces-afrodescendiente-destacada/",
     },
     {
       title: "Reconocimiento a su gestión en la Cámara de Comercio de Buenaventura",
-      link: "https://www.linkedin.com/posts/asousa_futuroencasa-orgulloasousa-yosoyasousa-activity-7383861973597298689-IKLc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADG7L-4BUXCtOfGiP6EvOVhwJrxcuXotywY",
+      link: "https://ccbun.org.co/reconocimiento-milady-garces/",
     },
   ],
   links: {
@@ -44,6 +44,7 @@ const DATA = {
     facebook: "https://www.facebook.com/milady.garcesarboleda",
   },
 };
+
 
 
 function daysFrom(dateStr) {
