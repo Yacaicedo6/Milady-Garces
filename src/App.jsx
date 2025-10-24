@@ -1,5 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Mail, Linkedin, Instagram, Facebook } from "lucide-react";
+import coverImage from "./assets/milady.jpg";
+
 
 const DATA = {
   recipientName: "Milady Yineth Garcés Arboleda",
@@ -30,11 +32,11 @@ const DATA = {
   press: [
     {
       title: "Milady Garcés entre las 100 personas afrodescendientes más influyentes del mundo",
-      link: "https://mipad.org/milady-garces-afrodescendiente-destacada/",
+      link: "https://www.mipad.org/files/MIPAD_PUBLICATION_2024_Online_Version.pdf",
     },
     {
       title: "Reconocimiento a su gestión en la Cámara de Comercio de Buenaventura",
-      link: "https://ccbun.org.co/reconocimiento-milady-garces/",
+      link: "https://www.linkedin.com/posts/asousa_futuroencasa-orgulloasousa-yosoyasousa-activity-7383861973597298689-IKLc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADG7L-4BUXCtOfGiP6EvOVhwJrxcuXotywY",
     },
   ],
   links: {
