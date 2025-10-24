@@ -2,7 +2,7 @@
 
 Su primera pagina web personal y actualizable.
 
-con Mucho cariño y aprecio.
+con Mucho cariño y aprecio 💖.
 
-<span title="https://github.com/Yacaicedo6">Yan Caicedo</span>
+<a href="https://github.com/Yacaicedo6" title="Visita el perfil de GitHub de Yan Caicedo">Yan Caicedo</a> 
 
