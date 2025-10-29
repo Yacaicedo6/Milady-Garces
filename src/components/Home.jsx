@@ -71,6 +71,26 @@ export default function Home() {
           Este portafolio reúne la trayectoria, visión y acciones de Milady Garcés como lideresa comprometida con el desarrollo del Pacífico colombiano, integrando a mujeres, comunidades afrodescendientes y zonas rurales a la economía y la gobernanza local.
         </p>
       </section>
-    </div>
-  );
-}
+        {/* Footer */}
+        <footer className="bg-gray-900 text-white py-4 text-center mt-8">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-2 text-sm">
+              <span className="text-gray-300">&copy; {new Date().getFullYear()} Milady Garcés</span>
+              <span className="text-gray-500">•</span>
+              <span className="text-gray-300">Todos los derechos reservados</span>
+              <span className="hidden md:inline text-gray-500">•</span>
+              <a
+                href="https://github.com/Yacaicedo6/Milady-Garces"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-0 md:ml-2 text-white underline hover:text-gray-300"
+                aria-label="Repositorio GitHub de Yacaicedo6 - Milady-Garces"
+              >
+                Web Yan Caicedo
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    );
+  }
