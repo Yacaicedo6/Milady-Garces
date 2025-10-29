@@ -3,18 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"homepage": "https://Yacaicedo6.github.io/Milady-Garces",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+  "homepage": "https://Yacaicedo6.github.io/Milady-Garces",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "lucide-react": "^0.471.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.9.4"
   },
   "devDependencies": {
     "@types/react": "^18.3.4",
