@@ -1,4 +1,4 @@
-# Este repositorio es un regalo para una persona muy especial.
+# Un regalo para una persona muy especial.
 
 Su primera pagina web personal y actualizable.
 
