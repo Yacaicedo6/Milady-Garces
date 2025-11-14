@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { Mail, Linkedin, Instagram, Facebook } from "lucide-react";
+import coverImage from "./assets/milady.jpg"; 
 
 const DATA = {
   recipientName: "Milady Yineth Garcés Arboleda",
