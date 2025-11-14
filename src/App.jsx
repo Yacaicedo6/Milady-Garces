@@ -57,7 +57,7 @@ export default function ProfessionalPortfolio() {
       {/* Header */}
       <header className="relative">
         <img
-          src={DATA.coverImage}
+          src={coverImage}
           alt="cover"
           className="w-full h-auto object-contain"
         />
