@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// 👇 Agrega la línea base correcta
+// Detectar si estamos construyendo para GitHub Pages
+const isGithubPages = process.env.GITHUB_PAGES === "true";
+
 export default defineConfig({
   plugins: [react()],
-  base: '/Milady-Garces/',   // <-- nombre exacto de tu repo
-})
+  // Hostinger → base "./"
+  // GitHub Pages → base "/Milady-Garces/"
+  base: isGithubPages ? "/Milady-Garces/" : "./",
+});
