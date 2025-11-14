@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Mail, Linkedin, Instagram, Facebook } from "lucide-react";
 import coverImage from "./assets/milady.jpg"; // ✔ Imagen real importada
 
@@ -21,16 +21,35 @@ const DATA = {
 // COMPONENTE PRINCIPAL
 // -----------------
 export default function App() {
+  const [opacity, setOpacity] = useState(1);
+
+  // --- EFECTO FADE DE LA PORTADA ---
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const fadePoint = 250; // Ajusta la velocidad del fade
+      const newOpacity = Math.max(1 - scrollY / fadePoint, 0);
+      setOpacity(newOpacity);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white text-black font-sans">
 
-      {/* Imagen de portada */}
+      {/* PORTADA CON EFECTO FADE */}
       <div className="relative w-full h-[80vh] overflow-hidden">
         <img
           src={DATA.coverImage}
           alt="cover"
-          className="w-full h-full object-cover"
+          style={{ opacity }}
+          className="w-full h-full object-cover object-center transition-opacity duration-100"
         />
+
+        {/* Degradado sutil */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-white"></div>
       </div>
 
       {/* Header */}
